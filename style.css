@@ -1,0 +1,175 @@
+
+*{
+    font-family: "poppins";
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+    background: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.maindiv{
+    width: 460px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0,0,.2);
+
+}
+.maindiv h1{
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+.maindiv .inputs1 .inputs2 .input0 .input3{
+    width: 90%;
+    height: 40px;
+    
+}
+.inputs1 input{
+    width: 96%;
+    height: 90%;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+.inputs0 input{
+    width: 96%;
+    height: 90%;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+.inputs2 input{
+    width: 96%;
+    height: 90%;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+.inputs3 input{
+    width: 96%;
+    height: 90%;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+.inputs0 input::placeholder{
+    color: #fff;
+}
+.inputs1 input::placeholder{
+    color: #fff;
+}
+.inputs2 input::placeholder{
+    color: #fff;
+}
+.inputs3 input::placeholder{
+    color: #fff;
+}
+.inputs1 i{
+    position: absolute;
+    right: 50px;
+    color: #fff;
+    top: 129px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.inputs0 i{
+    position: absolute;
+    right: 50px;
+    color: #fff;
+    top: 250px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.inputs2 i{
+    position: absolute;
+    right: 50px;
+    color: #fff;
+    top: 190px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.inputs3 i{
+    position: absolute;
+    right: 50px;
+    color: #fff;
+    top: 227px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+
+.maindiv .condition_forgotpass{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 10px 0 20px;
+    color: #fff;
+}
+.condition_forgotpass label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.condition_forgotpass a{
+    color: #fff;
+    text-decoration: none;
+}
+.condition_forgotpass a:hover{
+    text-decoration: underline;
+}
+.maindiv .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.maindiv .accountregister{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+   color: #fff;
+
+}
+.accountregister a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.accountregister a:hover{
+    text-decoration: underline;
+}
+h4{
+    color: #fff;
+}

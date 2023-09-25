@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+    font-family: PP Mori;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: #bebeff; */
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    gap: 100px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+}
+#nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#nav-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+}
+#nav-contents a {
+   text-decoration: none;
+}
+
+#nav h4{
+    text-transform: uppercase;
+}
+
+#nav img{
+    height: 70px;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+/* 
+#text-container{
+    display: flex;
+} */
+
+#image-container img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    /* display: flex; */
+}
+#title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+
+}
+
+#page1 h2{
+    font-family: PP Mori;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    background: linear-gradient(180deg, #FFF 99.99%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+#page1 h1{
+
+    font-family: Gridular;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #00ffc2 50.99%, rgba(255, 255, 255, 0.00) 87.18%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+position: relative;
+}
+#page1 h1::before{
+
+    font-family: Gridular;
+    font-size: 40px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(180deg, #d02121 50.99%, rgba(255, 255, 255, 0.00) 87.18%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+    top: -40px;
+    left: -40px;
+}
+
+
+
+
+
+
+#scroller{
+    /* background-color: #d02121; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 10;
+}
+#scroller::-webkit-scrollbar{
+    display: none;
+}
+#scroller-in{
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#scroller h4{
+    display: inline-block;
+    font-size: 100px;
+    font-weight: 500;
+    font-family: gridular;
+    margin-right: 40px;
+    transition: all linear 0.5s;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #00ffc2;
+}
+#scroller h4:hover{
+    color: #00ffc2;
+
+}
+
+/* #sub-item{
+    height: 10vh;
+    width: 100%;
+    background-color: #d02121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sub-item img{
+    height: 80px;
+    width: 80px;
+} */
+
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+.icons i{
+    padding-left: 1em;
+    padding-right: 1em;
+    float: right;
+    font-size: 1.5em;
+   
+    
+}
+#footer{
+    padding: 2em;
+    padding-bottom: 2em;
+}
+#footer p{ 
+  font-size: 1.5em;
+  float: left;
+
+}
+button{
+    padding: 13px;
+    color: #fff;
+    background: transparent;
+    border-radius: 10px;
+}
+button:hover{
+    padding: 20px;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <h1 class="dashboard">DASHBOARD</h1>
+    <header>
+        <div class="profile-pic-container">
+            <img id="profile-pic" class="profile-pic" src="profile.jpg" alt="">
+            <button class="edit-button" id="open-modal"></button>
+        </div>
+        <div class="personal-info">
+            <div class="name">TANBIR SARKAR</div>
+            <div class="contact-info">
+                <span>Contact: +1 123-456-7890</span><br>
+                <span>Email: tanbirsarkar@example.com</span>
+            </div>
+        </div>
+        <input type="text" id="name-input" class="name-input" value="Your Name">
+        <input type="file" id="file-input" style="display: none;">
+    </header>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p>Choose what to edit:</p>
+            <div class="modal-options">
+                <button class="modal-option" id="edit-profile-pic">Edit Profile Pic</button>
+                <button class="modal-option" id="edit-name">Edit Name</button>
+            </div>
+        </div>
+    </div>
+    <div class="project-section">
+        <h1>My Projects</h1>
+
+        <div class="project-list" id="project-list">
+            <!-- Projects will be dynamically added here -->
+        </div>
+    </div>
+    <script src="dashboard.js">
+    </script>
+</body>
+</html>
